@@ -1,3 +1,77 @@
 body {
-    color: blue;
+    background-color: rgb(217, 235, 235);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#header {
+    font-size: 67px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+#calculator {
+    background-color: rgb(84, 95, 95);
+    height: 500px;
+    width: 450px;
+    padding: 19px;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#screen {
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 450px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#displayScreen {
+    font-size: 81px;
+    margin: 10px;
+}
+#clearButton {
+    height: 61px;
+    width: 269px;
+    background-color:rgb(202, 43, 31);
+    border-radius: 12px;
+    margin: 7px;
+    font-size: 30px;
+}
+#keyboard {
+    display: flex;
+}
+#numberButtons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.buttons {
+    font-size: 41px;
+    background-color: rgb(193, 196, 196);
+    color:rgb(0, 0, 0);
+    height: 80px;
+    width: 100px;
+    border-radius: 12px;
+
+}
+#signButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.signButton {
+    font-size: 42px;
+    background-color: rgb(193, 196, 196);
+    color:rgb(0, 0, 0);
+    height: 80px;
+    width: 100px;
+    border-radius: 12px;
+}
 }
