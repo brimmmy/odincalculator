@@ -11,7 +11,7 @@
             <div id = 'screen'>
                 <div id = 'displayScreen'></div>
             </div>
-            <button id = 'clearButton'>clear</button>
+            <button id = 'clearButton' onclick='clearScreen()'>clear</button>
             <div id = 'keyboard'>
                 <div id = 'numberButtons'>
                     <button class = 'buttons' id = '9' onclick ='populateNine()'>9</button>
@@ -25,17 +25,17 @@
                     <button class = 'buttons' id = '1' onclick ='populateOne()'>1</button>
                     <button class = 'buttons' id = '0' onclick ='populateZero()'>0</button>
                     <button class = 'buttons' id = '.' onclick ='populateDot()'>.</button>
-                    <button class = 'buttons' id = '='>=</button>
+                    <button class = 'buttons' id = '=' onclick = 'secondArray(); operate()'>=</button>
                 </div>
                 <div id = 'signButtons'>
-                    <button class = 'signButton' id = '+' onclick = 'populatePlus()'>+</button>
-                    <button class = 'signButton' id = '-' onclick = 'populateMinus()'>-</button>
-                    <button class = 'signButton' id = '*' onclick = 'populateMultiply()'>*</button>
-                    <button class = 'signButton' id = '/' onclick = 'populateDivide()'>/</button>
+                    <button class = 'signButton' id = '+' onclick = 'populatePlus(); firstArray()'>+</button>
+                    <button class = 'signButton' id = '-' onclick = 'populateMinus(); firstArray()'>-</button>
+                    <button class = 'signButton' id = '*' onclick = 'populateMultiply(); firstArray()'>*</button>
+                    <button class = 'signButton' id = '/' onclick = 'populateDivide(); firstArray()'>/</button>
                 </div>
             </div>
         </div>
 
-        <div id = 'footer'></div>
+        <div id = 'footer'>copywrite 2022 © brimmmy</div>
     </body>
 </html>

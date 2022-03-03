@@ -74,4 +74,8 @@ body {
     width: 100px;
     border-radius: 12px;
 }
-
+#footer {
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+}
