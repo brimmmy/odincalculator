@@ -9,29 +9,29 @@
 
         <div id = 'calculator'>
             <div id = 'screen'>
-                <div id = 'displayScreen'>7+9</div>
+                <div id = 'displayScreen'></div>
             </div>
             <button id = 'clearButton'>clear</button>
             <div id = 'keyboard'>
                 <div id = 'numberButtons'>
-                    <button class = 'buttons'>9</button>
-                    <button class = 'buttons'>8</button>
-                    <button class = 'buttons'>7</button>
-                    <button class = 'buttons'>6</button>
-                    <button class = 'buttons'>5</button>
-                    <button class = 'buttons'>4</button>
-                    <button class = 'buttons'>3</button>
-                    <button class = 'buttons'>2</button>
-                    <button class = 'buttons'>1</button>
-                    <button class = 'buttons'>0</button>
-                    <button class = 'buttons'>.</button>
-                    <button class = 'buttons'>=</button>
+                    <button class = 'buttons' id = '9' onclick ='populateNine()'>9</button>
+                    <button class = 'buttons' id = '8' onclick ='populateEight()'>8</button>
+                    <button class = 'buttons' id = '7' onclick ='populateSeven()'>7</button>
+                    <button class = 'buttons' id = '6' onclick ='populateSix()'>6</button>
+                    <button class = 'buttons' id = '5' onclick ='populateFive()'>5</button>
+                    <button class = 'buttons' id = '4' onclick ='populateFour()'>4</button>
+                    <button class = 'buttons' id = '3' onclick ='populateThree()'>3</button>
+                    <button class = 'buttons' id = '2' onclick ='populateTwo()'>2</button>
+                    <button class = 'buttons' id = '1' onclick ='populateOne()'>1</button>
+                    <button class = 'buttons' id = '0' onclick ='populateZero()'>0</button>
+                    <button class = 'buttons' id = '.' onclick ='populateDot()'>.</button>
+                    <button class = 'buttons' id = '='>=</button>
                 </div>
                 <div id = 'signButtons'>
-                    <button class = 'signButton'>+</button>
-                    <button class = 'signButton'>-</button>
-                    <button class = 'signButton'>*</button>
-                    <button class = 'signButton'>/</button>
+                    <button class = 'signButton' id = '+' onclick = 'populatePlus()'>+</button>
+                    <button class = 'signButton' id = '-' onclick = 'populateMinus()'>-</button>
+                    <button class = 'signButton' id = '*' onclick = 'populateMultiply()'>*</button>
+                    <button class = 'signButton' id = '/' onclick = 'populateDivide()'>/</button>
                 </div>
             </div>
         </div>

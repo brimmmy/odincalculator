@@ -68,10 +68,10 @@ body {
 }
 .signButton {
     font-size: 42px;
-    background-color: rgb(193, 196, 196);
+    background-color: rgb(230, 248, 248);
     color:rgb(0, 0, 0);
     height: 80px;
     width: 100px;
     border-radius: 12px;
 }
-}
+
